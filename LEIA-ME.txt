@@ -1,0 +1,113 @@
+╔════════════════════════════════════════════════════════════╗
+║                                                            ║
+║              🎮 BEEMO OFFICE AGENT 🎮                      ║
+║                                                            ║
+║         Assistente Office com Inteligência Artificial      ║
+║                                                            ║
+╚════════════════════════════════════════════════════════════╝
+
+
+📋 INSTALAÇÃO RÁPIDA (3 PASSOS)
+═══════════════════════════════════════════════════════════
+
+1️⃣  INSTALAR PYTHON (se ainda não tiver)
+   • Baixe em: https://www.python.org/downloads/
+   • ⚠️  IMPORTANTE: Marque "Add Python to PATH"
+
+2️⃣  EXECUTAR INSTALADOR
+   • Clique duas vezes em: INSTALAR.bat
+   • Aguarde a instalação (2-5 minutos)
+
+3️⃣  CONFIGURAR API KEY (gratuita)
+   • Obtenha em: https://aistudio.google.com/apikey
+   • Clique em: CONFIGURAR.bat
+   • Cole sua chave no arquivo .env
+
+
+▶️  COMO USAR
+═══════════════════════════════════════════════════════════
+
+1. Clique duas vezes em: EXECUTAR.bat
+2. O navegador abrirá automaticamente
+3. Digite comandos em linguagem natural
+4. Pronto!
+
+
+💬 EXEMPLOS DE COMANDOS
+═══════════════════════════════════════════════════════════
+
+📊 Excel:
+   "Crie uma planilha vendas.xlsx com dados de exemplo"
+   "Adicione um gráfico de colunas mostrando vendas"
+   "Ordene pela coluna Preço em ordem decrescente"
+
+📝 Word:
+   "Crie um documento relatorio.docx com título e 3 seções"
+   "Adicione uma tabela 3x4 com dados de vendas"
+
+📑 PowerPoint:
+   "Crie uma apresentação vendas.pptx com 5 slides"
+   "Adicione uma tabela no slide 2"
+
+📕 PDF:
+   "Crie um PDF relatorio.pdf com título e conteúdo"
+   "Junte os arquivos parte1.pdf e parte2.pdf"
+
+
+📁 ARQUIVOS IMPORTANTES
+═══════════════════════════════════════════════════════════
+
+INSTALAR.bat        → Instala todas as dependências
+EXECUTAR.bat        → Inicia o Beemo
+CONFIGURAR.bat      → Abre configurações
+MANUAL_USUARIO.md   → Manual completo (recomendado!)
+COMO_RODAR.md       → Guia técnico
+
+
+🆘 PROBLEMAS?
+═══════════════════════════════════════════════════════════
+
+❌ "Python não encontrado"
+   → Instale o Python e marque "Add to PATH"
+
+❌ "API Key não configurada"
+   → Execute CONFIGURAR.bat e cole sua chave
+
+❌ Outros erros
+   → Consulte MANUAL_USUARIO.md (seção Solução de Problemas)
+
+
+💡 DICAS
+═══════════════════════════════════════════════════════════
+
+✅ Seja específico nos comandos
+✅ Use nomes claros para arquivos
+✅ Aproveite o histórico e o botão Desfazer
+✅ Comandos repetidos são instantâneos (cache)
+✅ Crie um atalho do EXECUTAR.bat na área de trabalho
+
+
+📚 DOCUMENTAÇÃO COMPLETA
+═══════════════════════════════════════════════════════════
+
+Abra o arquivo MANUAL_USUARIO.md para:
+• Guia completo de instalação
+• Todos os comandos disponíveis
+• Exemplos práticos
+• Solução de problemas
+• Dicas avançadas
+
+
+🎉 PRONTO PARA COMEÇAR!
+═══════════════════════════════════════════════════════════
+
+1. Execute: INSTALAR.bat
+2. Configure: CONFIGURAR.bat
+3. Inicie: EXECUTAR.bat
+
+Divirta-se! 🚀
+
+
+═══════════════════════════════════════════════════════════
+Versão: 1.0 | Março 2026
+═══════════════════════════════════════════════════════════

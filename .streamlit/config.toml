@@ -1,0 +1,18 @@
+[client]
+# Ocultar navegação da sidebar
+showSidebarNavigation = false
+# Modo minimalista da toolbar
+toolbarMode = "minimal"
+
+[server]
+# XSRF protection automaticamente habilita CORS
+enableXsrfProtection = true
+
+[theme]
+# Tema escuro como base
+base = "dark"
+primaryColor = "#1f77b4"
+backgroundColor = "#0e1117"
+secondaryBackgroundColor = "#262730"
+textColor = "#fafafa"
+font = "sans serif"

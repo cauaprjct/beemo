@@ -1,0 +1,45 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Testing
+.pytest_cache/
+.hypothesis/
+.coverage
+htmlcov/
+*.cover
+
+# Office temporary files
+~$*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/*.log
+!logs/.gitkeep
+
+# Test files
+test_temp_*
+temp_test_*
+test_output/
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/

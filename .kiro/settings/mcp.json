@@ -1,0 +1,108 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp"
+      ],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "browser_navigate",
+        "browser_wait_for",
+        "browser_click",
+        "browser_close",
+        "browser_take_screenshot",
+        "browser_type",
+        "browser_snapshot",
+        "browser_tabs",
+        "browser_run_code",
+        "browser_press_key",
+        "browser_evaluate",
+        "browser_select_option",
+        "browser_handle_dialog",
+        "browser_console_messages",
+        "browser_fill_form",
+        "browser_navigate_back",
+        "browser_resize",
+        "browser_file_upload",
+        "browser_network_requests",
+        "browser_drag",
+        "browser_hover",
+        "browser_install"
+      ]
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "sequentialthinking"
+      ]
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "resolve-library-id",
+        "query-docs"
+      ]
+    },
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "SEU_TOKEN_AQUI",
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "create_repository",
+        "push_files",
+        "create_or_update_file",
+        "search_repositories",
+        "get_file_contents",
+        "list_commits",
+        "create_issue",
+        "create_pull_request",
+        "fork_repository",
+        "create_branch",
+        "list_issues",
+        "update_issue",
+        "add_issue_comment",
+        "search_code",
+        "search_issues",
+        "search_users",
+        "get_issue",
+        "get_pull_request",
+        "list_pull_requests",
+        "create_pull_request_review",
+        "merge_pull_request",
+        "get_pull_request_files",
+        "get_pull_request_status",
+        "update_pull_request_branch",
+        "get_pull_request_comments",
+        "get_pull_request_reviews"
+      ]
+    }
+  }
+}

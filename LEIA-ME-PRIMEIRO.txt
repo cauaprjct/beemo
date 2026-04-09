@@ -1,0 +1,107 @@
+╔════════════════════════════════════════════════════════════════╗
+║                  BEEMO OFFICE AGENT - GUIA RÁPIDO             ║
+╚════════════════════════════════════════════════════════════════╝
+
+🎯 O QUE É O BEEMO?
+
+O Beemo é um assistente inteligente que manipula arquivos Office 
+(Excel, Word, PowerPoint, PDF) através de comandos em português.
+
+Ao invés de clicar em menus e botões, você simplesmente digita o 
+que quer fazer, como:
+
+  "Crie uma planilha vendas.xlsx com 100 linhas"
+  "Adicione um gráfico de pizza"
+  "Formate o cabeçalho em negrito"
+
+════════════════════════════════════════════════════════════════
+
+📋 INSTALAÇÃO (APENAS 3 PASSOS)
+
+1️⃣ INSTALAR.bat
+   → Clique duas vezes
+   → Aguarde instalar as dependências (2-5 minutos)
+   
+2️⃣ CONFIGURAR.bat
+   → Clique duas vezes
+   → Cole sua API key do Google (gratuita)
+   → Escolha onde salvar seus arquivos
+   
+3️⃣ EXECUTAR.bat
+   → Clique duas vezes sempre que quiser usar o Beemo
+   → O navegador abrirá automaticamente
+
+════════════════════════════════════════════════════════════════
+
+🔑 COMO OBTER A API KEY (GRATUITA)
+
+1. Acesse: https://aistudio.google.com/apikey
+2. Faça login com sua conta Google
+3. Clique em "Create API Key"
+4. Copie a chave gerada
+5. Cole no CONFIGURAR.bat quando solicitado
+
+A API é 100% GRATUITA e permite:
+  - 15 requisições por minuto (modelo rápido)
+  - 10 requisições por minuto (modelo equilibrado)
+  - 5 requisições por minuto (modelo inteligente)
+
+════════════════════════════════════════════════════════════════
+
+💡 EXEMPLOS DE COMANDOS
+
+EXCEL:
+  "Crie uma planilha vendas.xlsx com colunas Produto, Quantidade, Preço"
+  "Adicione um gráfico de colunas na célula H2"
+  "Ordene pela coluna Preço em ordem decrescente"
+  "Formate o cabeçalho com negrito e fundo azul"
+
+WORD:
+  "Crie um relatório com título, 3 seções e uma tabela"
+  "Adicione uma imagem logo.png centralizada"
+  "Formate o primeiro parágrafo em negrito"
+  "Exporte para PDF"
+
+POWERPOINT:
+  "Crie uma apresentação com 5 slides"
+  "Adicione uma tabela no slide 2"
+  "Substitua 2024 por 2025 em toda a apresentação"
+
+PDF:
+  "Extraia o texto do arquivo contrato.pdf"
+  "Junte os arquivos parte1.pdf e parte2.pdf"
+  "Adicione marca d'água CONFIDENCIAL"
+
+════════════════════════════════════════════════════════════════
+
+❓ PROBLEMAS COMUNS
+
+PROBLEMA: "Python não encontrado"
+SOLUÇÃO: Instale Python em https://www.python.org/downloads/
+         IMPORTANTE: Marque "Add Python to PATH"
+
+PROBLEMA: "API key inválida"
+SOLUÇÃO: Verifique se copiou a chave completa do Google AI Studio
+
+PROBLEMA: "Porta 8501 ocupada"
+SOLUÇÃO: Feche outras instâncias do Beemo ou reinicie o computador
+
+PROBLEMA: Navegador não abre automaticamente
+SOLUÇÃO: Abra manualmente: http://localhost:8501
+
+════════════════════════════════════════════════════════════════
+
+📚 DOCUMENTAÇÃO COMPLETA
+
+Para mais informações, consulte:
+  - README.md (documentação técnica completa)
+  - COMO_RODAR.md (guia detalhado de uso)
+  - screenshots/ (capturas de tela da interface)
+
+════════════════════════════════════════════════════════════════
+
+🎉 PRONTO PARA COMEÇAR!
+
+Execute INSTALAR.bat agora para começar!
+
+════════════════════════════════════════════════════════════════

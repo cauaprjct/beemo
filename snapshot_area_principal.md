@@ -1,0 +1,108 @@
+- generic [ref=e2]:
+  - generic [ref=e7]:
+    - button "keyboard_double_arrow_left" [ref=e172] [cursor=pointer]:
+      - generic [ref=e174]: keyboard_double_arrow_left
+    - generic [ref=e11]:
+      - heading "⚙️ Arquivos" [level=2] [ref=e15]
+      - button "🔄 Atualizar Lista" [ref=e21] [cursor=pointer]:
+        - paragraph [ref=e25]: 🔄 Atualizar Lista
+      - heading "📁 Arquivos Disponíveis" [level=3] [ref=e29]
+      - paragraph [ref=e34]: 1 arquivo(s) encontrado(s)
+      - generic [ref=e37] [cursor=pointer]:
+        - checkbox "vendas_2025.xlsx"
+        - generic [ref=e40]:
+          - paragraph [ref=e42]: vendas_2025.xlsx
+          - button "Help for vendas_2025.xlsx" [ref=e46]:
+            - img [ref=e47]
+      - separator [ref=e54]
+      - heading "⏱️ Histórico de Versões" [level=2] [ref=e58]
+      - paragraph [ref=e63]: 1 arquivo(s) com histórico
+      - group [ref=e66]:
+        - generic "keyboard_arrow_down 📄 vendas_2025.xlsx" [ref=e175] [cursor=pointer]:
+          - generic [ref=e68]:
+            - generic [ref=e177]: keyboard_arrow_down
+            - paragraph [ref=e73]: 📄 vendas_2025.xlsx
+        - generic [ref=e179]:
+          - paragraph [ref=e184]: 10 versão(ões)
+          - generic [ref=e186]:
+            - button "↩️ Desfazer" [ref=e194] [cursor=pointer]:
+              - paragraph [ref=e198]: ↩️ Desfazer
+            - button "↪️ Refazer" [ref=e206] [cursor=pointer]:
+              - paragraph [ref=e210]: ↪️ Refazer
+          - paragraph [ref=e215]: "Histórico:"
+          - generic [ref=e218]: 2026-03-28 10:51:28 - Removeu gráfico
+          - generic [ref=e221]: → 2026-03-28 10:30:00 - Adicionou gráfico
+          - generic [ref=e224]: 2026-03-28 10:30:00 - Removeu gráfico
+          - generic [ref=e227]: 2026-03-28 10:28:02 - Adicionou gráfico
+          - generic [ref=e230]: 2026-03-28 10:28:02 - Removeu gráfico
+          - generic [ref=e233]: 2026-03-28 08:22:14 - Atualizou células
+          - generic [ref=e236]: 2026-03-28 08:22:05 - Atualizou células
+          - generic [ref=e239]: 2026-03-28 08:21:53 - Atualizou células
+          - generic [ref=e242]: 2026-03-28 08:19:45 - Atualizou células
+          - generic [ref=e245]: 2026-03-28 08:02:40 - Atualizou células
+      - separator [ref=e78]
+      - heading "⚡ Cache de Respostas" [level=2] [ref=e82]
+      - alert [ref=e85]:
+        - paragraph [ref=e90]: "💾 14 respostas salvas | Taxa de acerto: 0.0%"
+      - generic [ref=e93] [cursor=pointer]:
+        - checkbox "Mostrar estatísticas avançadas"
+        - paragraph [ref=e98]: Mostrar estatísticas avançadas
+      - button "🗑️ Limpar Cache" [ref=e104] [cursor=pointer]:
+        - paragraph [ref=e108]: 🗑️ Limpar Cache
+      - separator [ref=e113]
+      - group [ref=e116]:
+        - generic "keyboard_arrow_down ❓ Ajuda" [active] [ref=e246] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e248]: keyboard_arrow_down
+            - paragraph [ref=e123]: ❓ Ajuda
+        - generic [ref=e254]:
+          - heading "Como usar:" [level=3] [ref=e255]
+          - list [ref=e256]:
+            - listitem [ref=e257]: Selecione um ou mais arquivos na lista acima
+            - listitem [ref=e258]: Digite seu comando em linguagem natural
+            - listitem [ref=e259]: Clique em "Enviar" e aguarde o processamento
+          - heading "Exemplos de comandos:" [level=3] [ref=e260]
+          - list [ref=e261]:
+            - listitem [ref=e262]: "\"Crie uma planilha com dados de vendas\""
+            - listitem [ref=e263]: "\"Adicione um gráfico de pizza na posição K2\""
+            - listitem [ref=e264]: "\"Liste todos os gráficos do arquivo\""
+            - listitem [ref=e265]: "\"Ordene os dados pela coluna Data\""
+            - listitem [ref=e266]: "\"Formate o cabeçalho com negrito e fundo azul\""
+          - heading "Funcionalidades:" [level=3] [ref=e267]
+          - list [ref=e268]:
+            - listitem [ref=e269]: "✅ Excel: 15 operações (criar, atualizar, formatar, gráficos, ordenar)"
+            - listitem [ref=e270]: "✅ Word: 12 operações (criar, formatar, tabelas, listas)"
+            - listitem [ref=e271]: "✅ PowerPoint: 10 operações (slides, layouts, tabelas)"
+            - listitem [ref=e272]: "✅ PDF: 8 operações (criar, extrair, mesclar, dividir)"
+          - heading "Dicas:" [level=3] [ref=e273]
+          - list [ref=e274]:
+            - listitem [ref=e275]: Use o histórico de versões para desfazer/refazer operações
+            - listitem [ref=e276]: O cache acelera comandos repetidos
+            - listitem [ref=e277]: Feche o Excel antes de modificar arquivos (Windows)
+  - generic [ref=e3]:
+    - banner
+    - generic [ref=e126]:
+      - heading "📄 Gemini Office Agent" [level=1] [ref=e131]:
+        - text: 📄 Gemini Office Agent
+        - generic [ref=e132]:
+          - link "Link to heading":
+            - /url: "#gemini-office-agent"
+            - img
+      - paragraph [ref=e137]: Manipule arquivos Office através de comandos em linguagem natural
+      - paragraph [ref=e142]:
+        - text: "🤖 Modelo:"
+        - strong [ref=e143]: gemini-2.5-flash-lite
+        - text: "(fallback: gemini-2.5-flash, gemini-2.5-pro)"
+      - heading "💬 Nova Solicitação" [level=3] [ref=e148]:
+        - text: 💬 Nova Solicitação
+        - generic [ref=e149]:
+          - link "Link to heading":
+            - /url: "#nova-solicitacao"
+            - img
+      - generic [ref=e151]:
+        - paragraph [ref=e155]: "Descreva o que você deseja fazer:"
+        - textbox "Descreva o que você deseja fazer:" [ref=e158]:
+          - /placeholder: "Exemplo: Crie uma planilha Excel com os dados de vendas do último trimestre"
+      - button "🚀 Enviar" [ref=e161] [cursor=pointer]:
+        - paragraph [ref=e165]: 🚀 Enviar
+      - separator [ref=e170]
