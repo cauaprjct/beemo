@@ -4,15 +4,45 @@ Um agente Python que permite manipular arquivos Office (Excel, Word, PowerPoint)
 
 O Beemo usa **native function calling** do Gemini — o modelo decide diretamente quais ferramentas acionar, eliminando o pipeline manual de parsing de JSON. Resultado: mais precisão, menos falsos positivos e suporte nativo a conversas mistas (perguntas + ações).
 
+## 📸 Screenshots
+
+<div align="center">
+  <img src="screenshots/01_tela_inicial.png" width="45%" alt="Tela Inicial">
+  <img src="screenshots/06_tema_escuro.png" width="45%" alt="Tema Escuro">
+</div>
+
+<div align="center">
+  <img src="screenshots/02_historico_versoes.png" width="45%" alt="Histórico de Versões">
+  <img src="screenshots/03_ajuda_aberta.png" width="45%" alt="Ajuda Integrada">
+</div>
+
+### ✨ Funcionalidades Visuais
+
+- 🎨 **Interface Moderna**: Tema claro e escuro
+- 🔄 **Versionamento**: 10 versões automáticas com undo/redo
+- 💬 **Comandos Naturais**: Digite em português, sem programação
+- 📊 **Histórico Completo**: Todas as operações registradas
+- ❓ **Ajuda Integrada**: Exemplos e documentação na interface
+
 ## Requisitos
 
 - Python 3.8 ou superior
 - Uma chave de API do Google Gemini ([obtenha aqui](https://aistudio.google.com/apikey))
 
-## Instalação
+## 🚀 Instalação Rápida (Windows)
+
+**Para usuários leigos - apenas 3 cliques:**
+
+1. **INSTALAR.bat** - Clique duas vezes (instala dependências)
+2. **CONFIGURAR.bat** - Clique duas vezes (configura API key)
+3. **EXECUTAR.bat** - Clique duas vezes (inicia o Beemo)
+
+O navegador abrirá automaticamente! 🎉
+
+## Instalação Manual
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/cauaprjct/beemo.git
 cd beemo
 pip install -r requirements.txt
 cp .env.example .env
